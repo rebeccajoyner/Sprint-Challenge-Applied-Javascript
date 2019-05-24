@@ -1,4 +1,7 @@
 
+
+
+//TabLink class definition; pass the link reference to the DOM element
 class TabLink {
   constructor(tabElement){
     // assign this.tabElement to the tabElement DOM reference
@@ -66,6 +69,9 @@ class TabCard {
 
 /* START HERE: 
 
+
+
+
 - Select all classes named ".tab" and assign that value to the tabs variable
 
 - With your selection in place, now chain a .forEach() method onto the tabs variable to iterate over the DOM NodeList
@@ -74,7 +80,11 @@ class TabCard {
 
 */
 let tabs = document.querySelectorAll('.tab');
+
+//elements from DOM into nodelist
+
 tabs.forEach(eachTab => new TabLink(eachTab));
 
+//iterate over each element from nodelist & send them to the class TabLink
 
 //method for each (cb function)
