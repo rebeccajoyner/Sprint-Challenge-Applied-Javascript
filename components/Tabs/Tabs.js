@@ -11,7 +11,8 @@ class TabLink {
     
     // <- Delete this comment block when you work on the if statement
     // Check to see if this.tabData is equal to 'all'
-    if(){
+    if (this.tabData === 'all') {
+      this.cards = document.querySelector('.cards');
       // If `all` is true, select all cards regardless of their data attribute values
       // this.cards = ;
     } else {
