@@ -19,6 +19,7 @@
 4. Why would we convert a NodeList into an Array?
 
 *makes array methods accessible 
+**makes other array methods accessible other than 'for each' only
 
 
 5. What is a component?
